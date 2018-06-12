@@ -73,7 +73,7 @@ public function favorites($id)
 
         $data = [
             'user' => $user,
-            'users' => $favorites,
+            'microposts' => $favorites,
         ];
 
         $data += $this->counts($user);
